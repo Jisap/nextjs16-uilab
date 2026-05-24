@@ -3,6 +3,7 @@ import { Audiowide, Geist_Mono, Golos_Text } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar.tsx/Navbar";
 import Footer from "./Components/Footer/Footer";
+import ThemeProvider from "./Components/ThemeProvider";
 
 const audiowide = Audiowide({
   weight: "400",
@@ -32,9 +33,11 @@ export default function RootLayout({
       className={`${audiowide.variable} ${golosText.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        {children}
-        <Footer />
+        <ThemeProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

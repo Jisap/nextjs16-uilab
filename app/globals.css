@@ -20,7 +20,7 @@
 }
 
 /* 2️⃣ Integración con el sistema de temas de Tailwind v4 */
-@theme {
+@theme inline {
   /* Colores */
   --color-prim: var(--color-prim);
   --color-second: var(--color-second);
