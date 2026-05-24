@@ -1,3 +1,99 @@
 @import "tailwindcss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
 @import "remixicon/fonts/remixicon.css";
+
+/* 1️⃣ Variables CSS para theming dinámico */
+:root {
+  --color-prim: #F9D442;
+  --color-second: #FF99C0;
+  --color-third: #9981c2;
+  --color-forth: #6D9985;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-body: #0E1218;
+}
+
+.lightMode {
+  --color-white: #000;
+  --color-black: #fff;
+  --color-body: #fff;
+}
+
+/* 2️⃣ Integración con el sistema de temas de Tailwind v4 */
+@theme {
+  /* Colores */
+  --color-prim: var(--color-prim);
+  --color-second: var(--color-second);
+  --color-third: var(--color-third);
+  --color-forth: var(--color-forth);
+  --color-white: var(--color-white);
+  --color-black: var(--color-black);
+  --color-body: var(--color-body);
+
+  /* Fuentes */
+  --font-golos: "Golos Text", sans-serif;
+  --font-audiowide: "Audiowide", sans-serif;
+  --font-clash: "ClashDisplay", sans-serif;
+
+  /* Duraciones (Tailwind usa `duration-*`, no `transition-*`) */
+  --duration-regular: 0.3s;
+  --duration-slow: 0.6s;
+}
+
+/* 3️⃣ Estilos base globales */
+@layer base {
+  body {
+    background-color: var(--color-body);
+    color: var(--color-white);
+    overflow-x: hidden !important;
+  }
+}
+
+/* 4️⃣ Font Faces */
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/Images/Fonts/ClashDisplay-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/Images/Fonts/ClashDisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/Images/Fonts/ClashDisplay-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/Images/Fonts/ClashDisplay-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/Images/Fonts/ClashDisplay-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 5️⃣ Alias para compatibilidad con tus clases actuales */
+.GolosText {
+  @apply font-golos;
+}
+
+.Audiowide {
+  @apply font-audiowide;
+}
+
+.clash-font {
+  @apply font-clash;
+}
