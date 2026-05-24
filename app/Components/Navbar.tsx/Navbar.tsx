@@ -8,10 +8,14 @@ import IconShopping from "@/public/Images/shopping-bag-icon.svg";
 import user from "@/public/Images/Nav-user.png"
 import Link from 'next/link';
 import { useTheme } from '../ThemeProvider';
+import { sidebarContext } from '../SidebarProvider';
+import { useContext } from 'react';
 
 
 
 const Navbar = () => {
+
+  const { toggleSidebar } = useContext(sidebarContext)
   const { theme, toggleTheme } = useTheme();
 
   return (
@@ -24,7 +28,10 @@ const Navbar = () => {
       </button>
 
       {/* Sidebar Toggle */}
-      <div className='absolute h-full w-15 md:w-20 flex items-center justify-center cursor-pointer bg-white top-0 left-0 z-50'>
+      <div
+        onClick={toggleSidebar}
+        className='absolute h-full w-15 md:w-20 flex items-center justify-center cursor-pointer bg-white top-0 left-0 z-50'
+      >
         <Image
           src={MenuIcon}
           alt="MenuIcon"

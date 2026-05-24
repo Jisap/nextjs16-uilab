@@ -69,6 +69,48 @@ const Sidebar = () => {
         ))}
 
         {/* Faqs */}
+        <button
+          onClick={() => setShowFaqModal(true)}
+          className={`relative group hidden md:flex gap-4 items-center py-3 ps-4 rounded-md transition-all duration-300 hover:bg-gray-500 cursor-pointer`}
+        >
+          <Image
+            src={IconFaqs}
+            alt="IconFaqs"
+            width={24}
+            height={24}
+            className={theme === "light" ? "invert" : ""}
+          />
+          {!isCollapsed && <h2 className="clash-font hidden md:block">FAQS</h2>}
+          {isCollapsed && (
+            <span className="absolute left-[81px] top-1/2 -translate-y-1/2 bg-white text-black text-md px-4 py-1 rounded-md
+            opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-30">
+              FAQS
+            </span>
+          )}
+        </button>
+
+        {/* Show modal */}
+
+        {/* Report */}
+        <button
+          onClick={() => setShowReportModal(true)}
+          className={`relative group hidden md:flex gap-4 items-center py-3 ps-4 rounded-md transition-all duration-300 hover:bg-gray-500 cursor-pointer`}
+        >
+          <Image
+            src={IconReport}
+            alt="IconReport"
+            width={24}
+            height={24}
+            className={theme === "light" ? "invert" : ""}
+          />
+          {!isCollapsed && <h2 className="clash-font hidden md:block">Report</h2>}
+          {isCollapsed && (
+            <span className="absolute left-[81px] top-1/2 -translate-y-1/2 bg-white text-black text-md px-4 py-1 rounded-md
+            opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap z-30">
+              Report
+            </span>
+          )}
+        </button>
       </div>
     </div>
   )
