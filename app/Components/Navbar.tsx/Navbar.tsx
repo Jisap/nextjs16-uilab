@@ -52,7 +52,37 @@ const Navbar = () => {
                 2
               </span>
             </div>
+
+            <div className='relative cursor-pointer'>
+              <Image
+                src={IconNotifications}
+                alt="IconNotifications"
+                width={30}
+                height={30}
+                className={`${theme === "light" ? "invert" : "invert-50 hover:invert-0 transition-all duration-300"}`}
+              />
+
+              <span className='absolute bg-second rounded-full -top-2 -right-2 text-black font-bold text-xs w-5 h-5 flex justify-center items-center'>
+                2
+              </span>
+            </div>
+
+            <div className='relative cursor-pointer'>
+              <Image
+                src={IconShopping}
+                alt="IconShopping"
+                width={30}
+                height={30}
+                className={`${theme === "light" ? "invert" : "invert-50 hover:invert-0 transition-all duration-300"}`}
+              />
+
+              <span className='absolute bg-second rounded-full -top-2 -right-2 text-black font-bold text-xs w-5 h-5 flex justify-center items-center'>
+                2
+              </span>
+            </div>
           </div>
+
+          {/* User */}
         </div>
       </div>
     </div>
