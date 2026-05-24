@@ -24,10 +24,13 @@ const Navbar = () => {
       </button>
 
       {/* Sidebar Toggle */}
-      <div className='absolute h-full w-15 md:w-20 flex items-center justify-center cursor-pointer bg-(--white) top-0 left-0 z-50'>
+      <div className='absolute h-full w-15 md:w-20 flex items-center justify-center cursor-pointer bg-white top-0 left-0 z-50'>
         <Image
           src={MenuIcon}
           alt="MenuIcon"
+          width={24}
+          height={24}
+          className={theme === "light" ? "invert" : ""}
         />
       </div>
 
@@ -83,6 +86,15 @@ const Navbar = () => {
           </div>
 
           {/* User */}
+          <div className='hidden md:flex items-center gap-2'>
+            <Image
+              src={user}
+              alt="user"
+              width={40}
+              height={40}
+            />
+            <h2 className='clash-font font-medium text-2xl'>Isabella</h2>
+          </div>
         </div>
       </div>
     </div>
