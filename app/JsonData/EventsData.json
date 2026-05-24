@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "date": "Mar 15, 2025",
+    "title": "UX Innovation Summit 2025",
+    "location": "San Francisco, United States",
+    "host": "UX Collective",
+    "price": "$199",
+    "image": "/event1.jpg"
+  },
+  {
+    "id": 2,
+    "date": "Apr 22, 2025",
+    "title": "Global Web Accessibility Conference",
+    "location": "London, United Kingdom",
+    "host": "A11y Alliance",
+    "price": "$120",
+    "image": "/event2.jpg"
+  },
+  {
+    "id": 3,
+    "date": "Jun 10, 2025",
+    "title": "Creative Code & Interactive Design Fest",
+    "location": "Berlin, Germany",
+    "host": "CodeArt Studio",
+    "price": "$85",
+    "image": "/event3.jpg"
+  },
+  {
+    "id": 4,
+    "date": "Jul 18, 2025",
+    "title": "Brand Strategy & Storytelling Workshop",
+    "location": "Toronto, Canada",
+    "host": "Narrative Labs",
+    "price": "$95",
+    "image": "/event4.jpg"
+  },
+  {
+    "id": 5,
+    "date": "Sep 05, 2025",
+    "title": "AI in Design: Ethics & Practice",
+    "location": "Amsterdam, Netherlands",
+    "host": "Future Design Forum",
+    "price": "$140",
+    "image": "/event5.jpg"
+  },
+  {
+    "id": 6,
+    "date": "Nov 25, 2025",
+    "title": "DesignOps the World Congress 2025",
+    "location": "Chicago, United States",
+    "host": "DesignOps International",
+    "price": "$150",
+    "image": "/event6.jpg"
+  }
+]

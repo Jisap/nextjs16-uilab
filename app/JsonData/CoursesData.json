@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "tag": "development",
+    "title": "The Ultimate Guide To Usability And UX/UI Designer",
+    "lessons": "6 lessons",
+    "students": "21 Students",
+    "author": "by Sarah Jenkins",
+    "price": "$75",
+    "image": "/Course-1.jpg",
+    "authorImage": "/Cours-author-1.png"
+  },
+  {
+    "id": 2,
+    "tag": "marketing",
+    "title": "Digital Marketing Masterclass for Beginners",
+    "lessons": "10 lessons",
+    "students": "45 Students",
+    "author": "by Michael Torres",
+    "price": "$60",
+    "image": "/Course-2.jpg",
+    "authorImage": "/Cours-author-2.png"
+  },
+  {
+    "id": 3,
+    "tag": "photography",
+    "title": "Mastering Portrait Photography & Lighting",
+    "lessons": "8 lessons",
+    "students": "18 Students",
+    "author": "by Elena Rossi",
+    "price": "$95",
+    "image": "/Course-3.jpg",
+    "authorImage": "/Cours-author-3.png"
+  },
+  {
+    "id": 4,
+    "tag": "business",
+    "title": "Startup Fundamentals: From Idea to Launch",
+    "lessons": "12 lessons",
+    "students": "33 Students",
+    "author": "by James Carter",
+    "price": "$85",
+    "image": "/Course-4.jpg",
+    "authorImage": "/Cours-author-4.png"
+  },
+  {
+    "id": 5,
+    "tag": "development",
+    "title": "Full-Stack JavaScript: React & Node.js",
+    "lessons": "15 lessons",
+    "students": "67 Students",
+    "author": "by Priya Sharma",
+    "price": "$120",
+    "image": "/Course-5.jpg",
+    "authorImage": "/Cours-author-5.png"
+  },
+  {
+    "id": 6,
+    "tag": "design",
+    "title": "Advanced Figma: Prototyping & Design Systems",
+    "lessons": "9 lessons",
+    "students": "29 Students",
+    "author": "by Oliver Hayes",
+    "price": "$70",
+    "image": "/Course-6.jpg",
+    "authorImage": "/Cours-author-6.png"
+  },
+  {
+    "id": 7,
+    "tag": "data-science",
+    "title": "Python for Data Analysis & Machine Learning",
+    "lessons": "14 lessons",
+    "students": "41 Students",
+    "author": "by Maya Chen",
+    "price": "$110",
+    "image": "/Course-7.jpg",
+    "authorImage": "/Cours-author-7.png"
+  },
+  {
+    "id": 8,
+    "tag": "illustration",
+    "title": "Creative Thinking: Techniques and Tools",
+    "lessons": "6 lessons",
+    "students": "22 Students",
+    "author": "by Leila Calderon",
+    "price": "$88",
+    "image": "/Course-8.jpg",
+    "authorImage": "/Cours-author-8.png"
+  }
+]

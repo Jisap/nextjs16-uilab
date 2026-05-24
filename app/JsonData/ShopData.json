@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "sale": "Hot",
+    "tag": "Furniture",
+    "title": "Modern Lounge Chair",
+    "price": "$245",
+    "image": "/shop-img1.jpg"
+  },
+  {
+    "id": 2,
+    "sale": "Sale",
+    "tag": "Lighting",
+    "title": "Geometric Pendant Lamp",
+    "price": "$89",
+    "image": "/shop-img2.jpg"
+  },
+  {
+    "id": 3,
+    "sale": "New",
+    "tag": "Textiles",
+    "title": "Handwoven Throw Blanket",
+    "price": "$65",
+    "image": "/shop-img3.jpg"
+  },
+  {
+    "id": 4,
+    "sale": "Trending",
+    "tag": "Tableware",
+    "title": "Matte Finish Dinner Set",
+    "price": "$150",
+    "image": "/shop-img4.jpg"
+  },
+  {
+    "id": 5,
+    "sale": "Sale",
+    "tag": "Decor",
+    "title": "Abstract Wall Sculpture",
+    "price": "$120",
+    "image": "/shop-img5.jpg"
+  },
+  {
+    "id": 6,
+    "sale": "New",
+    "tag": "Furniture",
+    "title": "Minimalist Oak Desk",
+    "price": "$320",
+    "image": "/shop-img6.jpg"
+  },
+  {
+    "id": 7,
+    "sale": "Hot",
+    "tag": "Lighting",
+    "title": "Brass Floor Lamp",
+    "price": "$195",
+    "image": "/shop-img7.jpg"
+  },
+  {
+    "id": 8,
+    "sale": "New",
+    "tag": "Textiles",
+    "title": "Linen Cushion Covers",
+    "price": "$45",
+    "image": "/shop-img8.jpg"
+  },
+  {
+    "id": 9,
+    "sale": "New",
+    "tag": "Decor",
+    "title": "Ceramic Storage Bottle",
+    "price": "$108",
+    "image": "/shop-img9.jpg"
+  }
+]

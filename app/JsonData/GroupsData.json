@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "tag": "Public Group",
+    "title": "Digital Design Hub",
+    "data": "Active 2 hours ago",
+    "member": "482 Members",
+    "image": "/Group1.jpg"
+  },
+  {
+    "id": 2,
+    "tag": "Private Group",
+    "title": "Advanced Frontend",
+    "data": "Active 1 day ago",
+    "member": "89 Members",
+    "image": "/Group2.jpg"
+  },
+  {
+    "id": 3,
+    "tag": "Public Group",
+    "title": "Graphic Design Trends",
+    "data": "Active 3 weeks ago",
+    "member": "645 Members",
+    "image": "/Group3.jpg"
+  },
+  {
+    "id": 4,
+    "tag": "Study Group",
+    "title": "Figma Mastery",
+    "data": "Active 5 days ago",
+    "member": "312 Members",
+    "image": "/Group4.jpg"
+  },
+  {
+    "id": 5,
+    "tag": "Public Group",
+    "title": "Web Development 101",
+    "data": "Active 12 hours ago",
+    "member": "890 Members",
+    "image": "/Group5.jpg"
+  },
+  {
+    "id": 6,
+    "tag": "Private Group",
+    "title": "UI/UX Portfolio Review",
+    "data": "Active 2 days ago",
+    "member": "156 Members",
+    "image": "/Group6.jpg"
+  },
+  {
+    "id": 7,
+    "tag": "Public Group",
+    "title": "Creative Coding",
+    "data": "Active 1 month ago",
+    "member": "421 Members",
+    "image": "/Group7.jpg"
+  },
+  {
+    "id": 8,
+    "tag": "Study Group",
+    "title": "Motion Design Basics",
+    "data": "Active 6 hours ago",
+    "member": "278 Members",
+    "image": "/Group8.jpg"
+  },
+  {
+    "id": 9,
+    "tag": "Public Group",
+    "title": "UX-research",
+    "data": "Active 8 days ago",
+    "member": "253 Members",
+    "image": "/Group9.jpg"
+  }
+]
