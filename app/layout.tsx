@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./Components/Navbar.tsx/Navbar";
 import Footer from "./Components/Footer/Footer";
 import ThemeProvider from "./Components/ThemeProvider";
+import SidebarProvider from "./Components/SidebarProvider";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
 const audiowide = Audiowide({
   weight: "400",
@@ -34,8 +36,11 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
-          <Navbar />
-          {children}
+          <SidebarProvider>
+            <Navbar />
+            <Sidebar />
+            {children}
+          </SidebarProvider>
           <Footer />
         </ThemeProvider>
       </body>
