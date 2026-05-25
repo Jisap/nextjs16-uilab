@@ -89,7 +89,49 @@ const Sidebar = () => {
           )}
         </button>
 
-        {/* Show modal */}
+        {/* Show Faqs modal */}
+        {showFaqModal && (
+          <div className="px-12 fixed inset-0 text-white flex items-center justify-center">
+            <div
+              onClick={() => setShowFaqModal(false)}
+              className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+            ></div>
+
+            <div className="relative bg-[#2D333C] border border-gray-700 rounded-3xl p-10 w-[650px] faq-modal">
+              <button
+                onClick={() => setShowFaqModal(false)}
+                className="absolute top-5 right-5 text-4xl cursor-pointer text-white hover:text-gray-300 transition-all"
+              >
+                X
+              </button>
+
+              <h2 className="clash-font text-4xl font-semibold mb-8">
+                Popular Questions
+              </h2>
+
+              <div className="flex flex-col gap-3">
+                <p className="flex items-center gap-3 text-lg cursor-pointer hover:text-gray-300 hover:underline transition-all">
+                  <i className="bi bi-journal-text"></i> How to Upload Your Portfolio
+                </p>
+                <p className="flex items-center gap-3 text-lg cursor-pointer hover:text-gray-300 hover:underline transition-all">
+                  <i className="bi bi-journal-text"></i> How to Start To Work
+                </p>
+                <p className="flex items-center gap-3 text-lg cursor-pointer hover:text-gray-300 hover:underline transition-all">
+                  <i className="bi bi-journal-text"></i> Get in touch with the creator support team
+                </p>
+              </div>
+
+              <div className="flex gap-5 mt-10">
+                <button className="w-full cursor-pointer bg-green-600 py-3 rounded-xl font-semibold hover:bg-green-500 transition-all">
+                  Browse all articles
+                </button>
+                <button className="w-full cursor-pointer bg-purple-400 py-3 rounded-xl font-semibold hover:bg-green-500 transition-all">
+                  Send Feedback
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Report */}
         <button
