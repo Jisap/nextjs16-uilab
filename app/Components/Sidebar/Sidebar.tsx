@@ -181,6 +181,46 @@ const Sidebar = () => {
               >
                 <i className="bi bi-x"></i>
               </button>
+
+              <h2 className="clash-font text-4xl font-semibold mb-8">
+                Report & Issue
+              </h2>
+
+              <div className="mb-3">
+                <label className="clash-font text-sm opacity-70">Your Name</label>
+
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className="w-full mt-2 bg-gray-800 border border-gray-700 text-white px-4 py-3 rounded-xl focus:outline-none focus:border-gray-500 transition-all"
+                />
+              </div>
+
+              <div className="mb-3">
+                <label className="clash-font text-sm opacity-70">Email Address</label>
+
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="w-full mt-2 bg-gray-800 border border-gray-700 text-white px-4 py-3 rounded-xl focus:outline-none focus:border-gray-500 transition-all"
+                />
+              </div>
+
+              <div className="mb-3">
+                <label className="clash-font text-sm opacity-70">Message</label>
+
+                <textarea
+                  rows={5}
+                  placeholder="Write your report"
+                  className="w-full mt-2 bg-gray-800 border border-gray-700 text-white px-4 py-3 rounded-xl focus:outline-none focus:border-gray-500 transition-all"
+                />
+              </div>
+
+              <div className="flex gap-5 mt-10">
+                <button className="w-full cursor-pointer bg-purple-400 py-3 rounded-xl font-semibold hover:bg-green-500 transition-all">
+                  Submit Report
+                </button>
+              </div>
             </div>
           </div>
         )}
