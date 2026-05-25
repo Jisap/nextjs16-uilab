@@ -166,7 +166,24 @@ const Sidebar = () => {
           )}
         </button>
 
-        {/* Show Report */}
+        {/* Show Report modal */}
+        {showReportModal && (
+          <div className="px-12 fixed inset-0 text-white flex items-center justify-center">
+            <div
+              onClick={() => setShowReportModal(false)}
+              className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+            ></div>
+
+            <div className="relative bg-[#2D333C] border border-gray-700 rounded-3xl p-10 w-[650px] faq-modal">
+              <button
+                onClick={() => setShowReportModal(false)}
+                className="absolute top-5 right-5 text-4xl cursor-pointer text-white hover:text-gray-300 transition-all"
+              >
+                <i className="bi bi-x"></i>
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
