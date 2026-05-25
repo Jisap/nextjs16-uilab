@@ -102,7 +102,7 @@ const Sidebar = () => {
                 onClick={() => setShowFaqModal(false)}
                 className="absolute top-5 right-5 text-4xl cursor-pointer text-white hover:text-gray-300 transition-all"
               >
-                X
+                <i className="bi bi-x"></i>
               </button>
 
               <h2 className="clash-font text-4xl font-semibold mb-8">
@@ -165,6 +165,8 @@ const Sidebar = () => {
             </span>
           )}
         </button>
+
+        {/* Show Report */}
       </div>
     </div>
   )

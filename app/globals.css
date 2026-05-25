@@ -97,3 +97,33 @@
 .clash-font {
   @apply font-clash;
 }
+
+.faq-modal {
+  z-index: 9999 !important;
+}
+
+.faq-text {
+  position: relative;
+}
+
+.faq-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 1px;
+  background-color: rgba(131, 131, 131, 1);
+}
+
+.faq-text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 1px;
+  background-color: rgba(131, 131, 131, 1);
+}
