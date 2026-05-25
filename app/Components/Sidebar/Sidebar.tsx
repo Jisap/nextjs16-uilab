@@ -129,6 +129,18 @@ const Sidebar = () => {
                   Send Feedback
                 </button>
               </div>
+
+              <div className="mt-8 flex flex-col items-center">
+                <p className="opacity-50 mb-5 faq-text w-full text-xl text-center ">Or</p>
+
+                <div className="flex gap-4">
+                  <i className="bi bi-instagram w-8 h-8 border border-gray-500 rounded flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                  <i className="bi bi-twitter w-8 h-8 border border-gray-500 rounded flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                  <i className="bi bi-whatsapp w-8 h-8 border border-gray-500 rounded flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                  <i className="bi bi-discord w-8 h-8 border border-gray-500 rounded flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                  <i className="bi bi-telegram w-8 h-8 border border-gray-500 rounded flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                </div>
+              </div>
             </div>
           </div>
         )}
