@@ -39,7 +39,9 @@ export default function RootLayout({
           <SidebarProvider>
             <Navbar />
             <Sidebar />
-            {children}
+            <div className="pt-24 px-5 md:px-[16%] pr-[5%] lg:pr-[16%] transition-all duration-300">
+              {children}
+            </div>
           </SidebarProvider>
           <Footer />
         </ThemeProvider>
