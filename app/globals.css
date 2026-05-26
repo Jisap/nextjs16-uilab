@@ -175,13 +175,13 @@
 .event-banner-elm1 {
   top: -10%;
   left: 20%;
-  animation: Anim-TB 5s infinite forwards linear;
+  animation: Anim-TB 5s ease-in-out infinite alternate;
 }
 
 .event-banner-elm2 {
   top: 30%;
   left: 0%;
-  animation: Anim-LR 5s infinite forwards linear;
+  animation: Anim-LR 5s ease-in-out infinite alternate;
 }
 
 .event-banner-elm3 {
@@ -192,43 +192,35 @@
 .event-banner-elm4 {
   top: 65%;
   left: 70%;
-  animation: Anim-TB 5s infinite forwards linear;
+  animation: Anim-TB 4s ease-in-out infinite alternate;
 }
 
 .event-banner-elm5 {
   top: 100%;
   left: 55%;
-  animation: Anim-TB 5s infinite forwards linear;
+  animation: Anim-TB 6s ease-in-out infinite alternate;
 }
 
 .event-banner-content {
-  animation: Anim-LR 5s infinite forwards linear;
+  animation: Anim-LR 5s ease-in-out infinite alternate;
 }
 
 @keyframes Anim-TB {
   0% {
-    transform: translateY(-10px);
-  }
-
-  50% {
-    transform: translateY(20px);
+    transform: translateY(-12px);
   }
 
   100% {
-    transform: translateY(0px);
+    transform: translateY(12px);
   }
 }
 
 @keyframes Anim-LR {
   0% {
-    transform: translateX(-10px);
-  }
-
-  50% {
-    transform: translateX(20px);
+    transform: translateX(-12px);
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(12px);
   }
 }
