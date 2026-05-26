@@ -7,8 +7,8 @@
     "students": "21 Students",
     "author": "by Sarah Jenkins",
     "price": "$75",
-    "image": "/Course-1.jpg",
-    "authorImage": "/Cours-author-1.png"
+    "image": "/Images/Course-1.jpg",
+    "authorImage": "/Images/Cours-author-1.png"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "students": "45 Students",
     "author": "by Michael Torres",
     "price": "$60",
-    "image": "/Course-2.jpg",
-    "authorImage": "/Cours-author-2.png"
+    "image": "/Images/Course-2.jpg",
+    "authorImage": "/Images/Cours-author-2.png"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "students": "18 Students",
     "author": "by Elena Rossi",
     "price": "$95",
-    "image": "/Course-3.jpg",
-    "authorImage": "/Cours-author-3.png"
+    "image": "/Images/Course-3.jpg",
+    "authorImage": "/Images/Cours-author-3.png"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "students": "33 Students",
     "author": "by James Carter",
     "price": "$85",
-    "image": "/Course-4.jpg",
-    "authorImage": "/Cours-author-4.png"
+    "image": "/Images/Course-4.jpg",
+    "authorImage": "/Images/Cours-author-4.png"
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "students": "67 Students",
     "author": "by Priya Sharma",
     "price": "$120",
-    "image": "/Course-5.jpg",
-    "authorImage": "/Cours-author-5.png"
+    "image": "/Images/Course-5.jpg",
+    "authorImage": "/Images/Cours-author-5.png"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "students": "29 Students",
     "author": "by Oliver Hayes",
     "price": "$70",
-    "image": "/Course-6.jpg",
-    "authorImage": "/Cours-author-6.png"
+    "image": "/Images/Course-6.jpg",
+    "authorImage": "/Images/Cours-author-6.png"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "students": "41 Students",
     "author": "by Maya Chen",
     "price": "$110",
-    "image": "/Course-7.jpg",
-    "authorImage": "/Cours-author-7.png"
+    "image": "/Images/Course-7.jpg",
+    "authorImage": "/Images/Cours-author-7.png"
   },
   {
     "id": 8,
@@ -84,7 +84,7 @@
     "students": "22 Students",
     "author": "by Leila Calderon",
     "price": "$88",
-    "image": "/Course-8.jpg",
-    "authorImage": "/Cours-author-8.png"
+    "image": "/Images/Course-8.jpg",
+    "authorImage": "/Images/Cours-author-8.png"
   }
 ]

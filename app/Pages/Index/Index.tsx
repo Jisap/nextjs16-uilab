@@ -1,3 +1,4 @@
+import Courses from "./Course/page"
 import EventBanner from "./EventBanner/page"
 import Hero from "./Hero/page"
 import PopularGroups from "./PopularGroups/page"
@@ -9,6 +10,7 @@ const Index = () => {
       <Hero />
       <PopularGroups />
       <EventBanner />
+      <Courses />
     </>
   )
 }
