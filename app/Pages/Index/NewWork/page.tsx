@@ -6,16 +6,21 @@ import Work2 from "@/public/Images/Work-2.jpg"
 import Work3 from "@/public/Images/Work-3.jpg"
 import Work4 from "@/public/Images/Work-4.jpg"
 import WorkerImg from "@/public/Images/Worker.png"
+import EventBanner1 from "@/public/Images/EventBanner-1.png"
+import EventBanner2 from "@/public/Images/EventBanner-2.png"
+import EventBanner3 from "@/public/Images/EventBanner-3.png"
+import EventBanner4 from "@/public/Images/EventBanner-4.png"
+import EventBanner5 from "@/public/Images/EventBanner-5.png"
 
 const workData = [
-  { id: 1, img: Work1, name: "Elodie Hardin", title: "Wallet App Design" },
-  { id: 2, img: Work2, name: "Maddox Patel", title: "Frontend Development" },
-  { id: 3, img: Work3, name: "Kianna Smith", title: "Landing Page Design" },
-  { id: 4, img: Work4, name: "Nathaniel Kim", title: "Branding Design" },
-  { id: 5, img: Work1, name: "Elodie Hardin", title: "Wallet App Design" },
-  { id: 6, img: Work2, name: "Maddox Patel", title: "Frontend Development" },
-  { id: 7, img: Work3, name: "Kianna Smith", title: "Landing Page Design" },
-  { id: 8, img: Work4, name: "Nathaniel Kim", title: "Branding Design" },
+  { id: 1, img: Work1, name: "Elodie Hardin", title: "Wallet App Design", author: EventBanner1 },
+  { id: 2, img: Work2, name: "Maddox Patel", title: "Frontend Development", author: EventBanner2 },
+  { id: 3, img: Work3, name: "Kianna Smith", title: "Landing Page Design", author: EventBanner3 },
+  { id: 4, img: Work4, name: "Nathaniel Kim", title: "Branding Design", author: EventBanner4 },
+  { id: 5, img: Work1, name: "Elodie Hardin", title: "Wallet App Design", author: EventBanner5 },
+  { id: 6, img: Work2, name: "Maddox Patel", title: "Frontend Development", author: EventBanner1 },
+  { id: 7, img: Work3, name: "Kianna Smith", title: "Landing Page Design", author: EventBanner2 },
+  { id: 8, img: Work4, name: "Nathaniel Kim", title: "Branding Design", author: EventBanner3 },
 ]
 
 const NewWork = () => {
@@ -50,7 +55,7 @@ const NewWork = () => {
 
                 <div className="work-content flex items-center gap-3">
                   <Image
-                    src={WorkerImg}
+                    src={item.author}
                     alt=""
                     className="w-12"
                   />
