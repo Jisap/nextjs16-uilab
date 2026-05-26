@@ -83,9 +83,52 @@ const Courses = () => {
                   <Link href={`/Pages/Course/${course.id}`}>
                     <div className="flex flex-wrap items-center gap-2 mt-5">
                       <p className="text-gray-400 clash-font font-medium text-md">4.5
-                        <i className="bi bi-star-fill text-yellow-300"></i>
+                        <i className="bi bi-star-fill text-yellow-300 ps-1"></i>
                       </p>
+
+                      <p className="text-gray-400 clash-font font-medium text-sm">
+                        {course.lessons}
+                      </p>
+
+                      <p className="text-gray-400 clash-font font-medium text-sm">
+                        ●
+                      </p>
+
+                      <p className="text-gray-400 clash-font font-medium text-sm">
+                        {course.students}
+                      </p>
+
+                      <p className="text-gray-400 clash-font font-medium text-sm">
+                        ●
+                      </p>
+
+                      <p className="text-gray-400 clash-font font-medium text-sm">
+                        {course.author}
+                      </p>
+
+                      <Image
+                        src={course.authorImage}
+                        alt="Author Image"
+                        width={100}
+                        height={100}
+                        className="w-6 object-cover"
+                      />
                     </div>
+
+                    <div className="mt-5 rounded-2xl ovrflow-hidden group relative">
+                      <h2 className="absolute bottom-5 right-5 z-10 clash-font font-semibold text-3xl bg-black px-6 py-3 rounded-2xl transition-all duration-300">
+                        {course.price}
+                      </h2>
+
+                      <Image
+                        src={course.image}
+                        alt="Course Image"
+                        width={500}
+                        height={500}
+                        className="w-full h-full rounded-2xl group-hover:scale-110 transition-all duration-300"
+                      />
+                    </div>
+
                   </Link>
                 </div>
               </SwiperSlide>
