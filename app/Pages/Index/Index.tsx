@@ -1,3 +1,4 @@
+import BuyBanner from "./BuyBanner/page"
 import Courses from "./Course/page"
 import EventBanner from "./EventBanner/page"
 import Hero from "./Hero/page"
@@ -13,6 +14,7 @@ const Index = () => {
       <EventBanner />
       <Courses />
       <NewWork />
+      <BuyBanner />
     </>
   )
 }
