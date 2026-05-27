@@ -81,8 +81,29 @@ const Shop = () => {
                         alt={product.title}
                         width={500}
                         height={500}
+                        loading="eager"
                         className="w-full h-full rounded-2xl group-hover:scale-110 transition-all duration-300"
                       />
+
+                      <span className={`
+                        absolute top-5 left-5 px-4 rounded-2xl clash-font font-semibold 
+                        ${product.sale === "Sale" ? "bg-prim text-black" : ""} 
+                        ${product.sale === "New" ? "bg-second text-black" : ""} 
+                        ${product.sale === "" ? "hidden" : ""}`
+                      }
+                      >
+                        {product.sale}
+                      </span>
+                    </div>
+
+                    <div className="mt-5">
+                      <p className="text-gray-400">{product.tag}</p>
+                      <h2 className="clash-font font-medium text-4xl lg:text-5xl hover:text-prim text-white transition-all duration-300">{product.title}</h2>
+                      <h4 className="text-4xl clash-font font-semibold text-forth mt-3">{product.price}</h4>
+
+                      <div className="border border-gray-400 text-white text-center mt-3 py-3 rounded-xl hover:bg-white hover:text-black font-bold transition-all duration-300 ">
+                        View Product
+                      </div>
                     </div>
                   </div>
                 </Link>
