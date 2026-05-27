@@ -1,6 +1,6 @@
 "use client"
 
-import shopData from "@/app/JsonData/ShopData.json"
+
 import Image from "next/image"
 import Link from "next/link"
 import { useRef } from "react"
@@ -11,7 +11,7 @@ import "swiper/css/navigation"
 import ShopData from "@/app/JsonData/ShopData.json"
 
 
-const Shop = () => {
+const ShopComponent = () => {
 
   const prevRef = useRef<HTMLDivElement | null>(null)
   const nextRef = useRef<HTMLDivElement | null>(null)
@@ -116,4 +116,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default ShopComponent

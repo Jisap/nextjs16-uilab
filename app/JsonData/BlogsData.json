@@ -6,9 +6,9 @@
     "desc": "Discover the essential strategies and insights every marketer should master to stay ahead in the competitive landscape.",
     "date": "september 11, 2022",
     "comment": "5 comments",
-    "image": "/Blog-1.jpg",
+    "image": "/Images/Blog-1.jpg",
     "author": "by Valerie Fergusson",
-    "authorimg": "/Blog-author-1.png"
+    "authorimg": "/Images/Blog-author-1.png"
   },
   {
     "id": 2,
@@ -17,9 +17,9 @@
     "desc": "Uncover the digital innovations and consumer behaviors that are redefining online shopping experiences worldwide.",
     "date": "March 18, 2023",
     "comment": "7 comments",
-    "image": "/Blog-2.jpg",
+    "image": "/Images/Blog-2.jpg",
     "author": "by Marcus Chen",
-    "authorimg": "/Blog-author-2.png"
+    "authorimg": "/Images/Blog-author-2.png"
   },
   {
     "id": 3,
@@ -28,9 +28,9 @@
     "desc": "Learn how to structure your content, meta tags, and internal links to improve search engine rankings effortlessly.",
     "date": "May 15, 2023",
     "comment": "10 comments",
-    "image": "/Blog-3.jpg",
+    "image": "/Images/Blog-3.jpg",
     "author": "by Laura Bennett",
-    "authorimg": "/Blog-author-3.png"
+    "authorimg": "/Images/Blog-author-3.png"
   },
   {
     "id": 4,
@@ -39,9 +39,9 @@
     "desc": "Tap into short-form video trends and algorithm secrets to grow your brand presence and reach new audiences.",
     "date": "July 22, 2023",
     "comment": "6 comments",
-    "image": "/Blog-4.jpg",
+    "image": "/Images/Blog-4.jpg",
     "author": "by David Kim",
-    "authorimg": "/Blog-author-4.png"
+    "authorimg": "/Images/Blog-author-4.png"
   },
   {
     "id": 5,
@@ -50,9 +50,9 @@
     "desc": "Explore how unified visuals, messaging, and customer experiences build long-term loyalty and market recognition.",
     "date": "August 8, 2022",
     "comment": "4 comments",
-    "image": "/Blog-5.jpg",
+    "image": "/Images/Blog-5.jpg",
     "author": "by Rachel Moore",
-    "authorimg": "/Blog-author-5.png"
+    "authorimg": "/Images/Blog-author-5.png"
   },
   {
     "id": 6,
@@ -61,9 +61,9 @@
     "desc": "Maximize your ROI by turning one strong piece of content into multiple formats across different platforms.",
     "date": "October 11, 2022",
     "comment": "8 comments",
-    "image": "/Blog-6.jpg",
+    "image": "/Images/Blog-6.jpg",
     "author": "by Thomas Wright",
-    "authorimg": "/Blog-author-6.png"
+    "authorimg": "/Images/Blog-author-6.png"
   },
   {
     "id": 7,
@@ -72,9 +72,9 @@
     "desc": "Dive into heatmaps, session recordings, and funnel analysis to uncover what your visitors really want.",
     "date": "December 2, 2022",
     "comment": "3 comments",
-    "image": "/Blog-7.jpg",
+    "image": "/Images/Blog-7.jpg",
     "author": "by Naomi Patel",
-    "authorimg": "/Blog-author-7.png"
+    "authorimg": "/Images/Blog-author-7.png"
   },
   {
     "id": 8,
@@ -83,19 +83,8 @@
     "desc": "Master deliverability, segmentation, and personalization to ensure your messages reach the right inboxes.",
     "date": "February 19, 2023",
     "comment": "11 comments",
-    "image": "/Blog-8.jpg",
+    "image": "/Images/Blog-8.jpg",
     "author": "by Alex Turner",
-    "authorimg": "/Blog-author-8.png"
-  },
-  {
-    "id": 9,
-    "tag": "Digital",
-    "title": "Does My Website Realy Need a Blog?",
-    "desc": "How do you design the kind of ecommerce site that will have products flying off the shelves?",
-    "date": "January 13, 2022",
-    "comment": "7 comments",
-    "image": "/Blog-9.jpg",
-    "author": "by Anthony Clark",
-    "authorimg": "/Blog-author-9.png"
+    "authorimg": "/Images/Blog-author-8.png"
   }
 ]

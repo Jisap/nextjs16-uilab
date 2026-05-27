@@ -1,10 +1,11 @@
+import BlogComponent from "./Blog/page"
 import BuyBanner from "./BuyBanner/page"
 import Courses from "./Course/page"
 import EventBanner from "./EventBanner/page"
 import Hero from "./Hero/page"
 import NewWork from "./NewWork/page"
 import PopularGroups from "./PopularGroups/page"
-import Shop from "./Shop/page"
+import ShopComponent from "./Shop/page"
 
 
 const Index = () => {
@@ -16,7 +17,8 @@ const Index = () => {
       <Courses />
       <NewWork />
       <BuyBanner />
-      <Shop />
+      <ShopComponent />
+      <BlogComponent />
     </>
   )
 }
