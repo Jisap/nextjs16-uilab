@@ -87,7 +87,7 @@ const BlogComponent = () => {
                       {blog.tag}
                     </span>
 
-                    <h2 className="clash-font font-medium text-4xl lg:text-5xl hover:text-prim text-white transition-all duration-300">
+                    <h2 className="clash-font font-semibold text-3xl lg:text-4xl hover:text-prim text-white transition-all duration-300">
                       {blog.title}
                     </h2>
 
@@ -102,6 +102,13 @@ const BlogComponent = () => {
                       <p className="text-gray-400 clash-font font-medium text-sm">{blog.comment}</p>
                       <p className="text-gray-400 text-md">•</p>
                       <p className="text-gray-400 clash-font font-medium text-sm">{blog.author}</p>
+                      <Image
+                        src={blog.authorimg}
+                        alt={blog.author}
+                        width={100}
+                        height={100}
+                        className="w-6 object-cover"
+                      />
                     </div>
                   </div>
                 </Link>
