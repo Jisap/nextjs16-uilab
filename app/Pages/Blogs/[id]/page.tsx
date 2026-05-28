@@ -224,6 +224,34 @@ const BlogDetails = () => {
               loading="eager"
               className='w-full h-full object-cover rounded-2xl'
             />
+
+            <h1 className='text-3xl lg:text-5xl clash-font font-semibold mt-10'>
+              3. Think Like a Website Visitor
+            </h1>
+
+            <p className='text-xl clash-font font-normal text-gray-300 mt-8'>
+              The next thing you should do during the ecommerce design process is think like a website visitor. It can be easy to get caught up in
+              designing your website-especially if you have a specific vision in mind. But try to take a step back and view your
+              website from the perspective of a customer. What will they be looking for on your site? Will they be able to find what they need
+              easily and intuitively ?
+            </p>
+
+            <p className='text-xl clash-font font-normal text-gray-300 mt-8'>
+              During the design process, put yourself in your visitor's shoes. What kind of layout is going to be easiest
+              for them to navigate. How can you organize your products in a way that makes sense for the end user? How can
+              you simplify the checkout process to make it as easy as possible for customers to complete their purchase? These
+              types of questions are what you should be asking yourself as you begin to design your ecommerce website.
+            </p>
+          </div>
+
+          <div className='my-20'>
+            <div className='border border-gray-500 rounded-2xl flex flex-col items-center px-5 py-10'>
+              <h1 className='text-2xl lg:text-5xl text-center clash-font font-semibold text-third'>
+                "A great online shop need great web design."
+              </h1>
+
+              <h2 className='clash-font font-medium text-2xl mt-3'>Henry Walker</h2>
+            </div>
           </div>
         </div>
       </div>
