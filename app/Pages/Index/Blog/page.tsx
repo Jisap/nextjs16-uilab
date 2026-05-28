@@ -19,7 +19,9 @@ const BlogComponent = () => {
       {/* Header */}
       <div className="flex flex-wrap justify-between items-center gap-5 mb-10">
         <h1 className="clash-font font-semibold text-5xl md:text-6xl">
-          Latest News
+          <Link href={`/Pages/Blogs`} className="cursor-pointer">
+            Latest News
+          </Link>
         </h1>
 
         <div className="flex items-center gap-3">
@@ -66,13 +68,13 @@ const BlogComponent = () => {
         className="overflow-hidden"
       >
         {BlogsData.map((blog, index) => (
-          <SwiperSlide key={index} className="!h-auto">
+          <SwiperSlide key={index} className="h-auto!">
             <Link href={`/Pages/Blogs/${blog.id}`} className="h-full block">
 
               <div className="h-full flex flex-col p-6 rounded-2xl bg-[#2d333c] hover:bg-[#353c47] transition-colors duration-300 cursor-pointer">
 
                 {/* Imagen */}
-                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-5 flex-shrink-0">
+                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-5 shrink-0">
                   <Image
                     src={blog.image}
                     alt={blog.title}

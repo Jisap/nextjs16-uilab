@@ -86,5 +86,16 @@
     "image": "/Images/Blog-8.jpg",
     "author": "by Alex Turner",
     "authorimg": "/Images/Blog-author-8.png"
+  },
+  {
+    "id": 9,
+    "tag": "Marketing",
+    "title": "10 Things You Must Know About ARt",
+    "desc": "Discover the essential strategies and insights every marketer should master to stay ahead in the competitive landscape.",
+    "date": "september 11, 2022",
+    "comment": "5 comments",
+    "image": "/Images/Blog-1.jpg",
+    "author": "by Valerie Fergusson",
+    "authorimg": "/Images/Blog-author-1.png"
   }
 ]
