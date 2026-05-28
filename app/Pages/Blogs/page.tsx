@@ -33,6 +33,30 @@ const page = () => {
                   <span className="clash-font font-medium bg-third text-black px-3 rounded uppercase">
                     {blog.tag}
                   </span>
+
+                  <h2 className="clash-font font-semibold text-3xl mt-2 text-white hover:text-prim transition-all duration-300">
+                    {blog.title}
+                  </h2>
+
+                  <p className="clash-font font-medium mt-3 text-gray-400">
+                    {blog.desc}
+                  </p>
+
+                  {/* Footer de la tarjeta */}
+                  <div className="flex flex-wrap items-center gap-2 mt-5 pt-4 border-t border-gray-600">
+                    <Image
+                      src={blog.authorimg}
+                      alt={blog.author}
+                      width={28}
+                      height={28}
+                      className="w-7 h-7 rounded-full object-cover"
+                    />
+                    <p className="clash-font font-medium text-gray-400 text-sm">{blog.author}</p>
+                    <span className="text-gray-600">•</span>
+                    <p className="clash-font font-medium text-gray-400 text-sm">{blog.date}</p>
+                    <span className="text-gray-600">•</span>
+                    <p className="clash-font font-medium text-gray-400 text-sm">{blog.comment}</p>
+                  </div>
                 </div>
               </Link>
             ))}
