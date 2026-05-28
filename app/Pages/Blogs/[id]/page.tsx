@@ -87,27 +87,27 @@ const BlogDetails = () => {
 
         {/* Blog Content */}
         <div className='p-10 px-10 lg:px-30 bg-[#2D333C] mt-5 rounded-2xl text-white'>
-          <p className='text-xl clash-font text-gray-400 font-normal'>
+          <p className='text-xl font-clash text-gray-400 font-normal'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus aperiam reprehenderit expedita sit,
             provident itaque. Minima inventore voluptatibus sunt nulla odio praesentium ex blanditiis aliquam harum, libero et.
             Quibusdam.
           </p>
 
-          <p className='text-xl clash-font text-gray-400 font-normal mt-4'>
+          <p className='text-xl font-clash text-gray-400 font-normal mt-4'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus aperiam reprehenderit expedita sit,
             provident itaque. Minima inventore voluptatibus sunt nulla odio praesentium ex blanditiis aliquam harum, libero et.
             Quibusdam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus alias iure incidunt illo aliquam esse explicabo voluptatibus nobis
             quia officia dolorum laudantium cumque est veniam et sit, quaerat odio non?
           </p>
 
-          <p className='text-xl clash-font text-gray-400 font-normal mt-4'>
+          <p className='text-xl font-clash text-gray-400 font-normal mt-4'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus aperiam reprehenderit expedita sit,
             provident itaque. Minima inventore voluptatibus sunt nulla odio praesentium ex blanditiis aliquam harum, libero et.
             Quibusdam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus alias iure incidunt illo aliquam esse explicabo voluptatibus nobis
             quia officia dolorum laudantium cumque est veniam et sit, quaerat odio non?
           </p>
 
-          <p className='text-xl clash-font text-gray-400 font-normal mt-4'>
+          <p className='text-xl font-clash text-gray-400 font-normal mt-4'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus aperiam reprehenderit expedita sit,
             provident itaque. Minima inventore voluptatibus sunt nulla odio praesentium ex blanditiis aliquam harum, libero et.
             Quibusdam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus alias iure incidunt illo aliquam esse explicabo voluptatibus nobis
@@ -121,10 +121,11 @@ const BlogDetails = () => {
                 alt='post1'
                 width={500}
                 height={500}
+                loading="eager"
                 className='w-full h-full rounded-2xl object-cover'
               />
 
-              <p className='text-center mt-1 clash-font font-medium text-gray-400'>
+              <p className='text-center mt-1 font-clash font-medium text-gray-400'>
                 Cryptomate: Wallet App Design
               </p>
             </div>
@@ -135,16 +136,95 @@ const BlogDetails = () => {
                 alt='post2'
                 width={500}
                 height={500}
+                loading="eager"
                 className='w-full h-full rounded-2xl'
               />
 
-              <p className='text-center mt-1 clash-font font-medium text-gray-400'>
+              <p className='text-center mt-1 font-clash font-medium text-gray-400'>
                 Content Management Platform
               </p>
             </div>
           </div>
 
+          <div className='my-20'>
+            <h1 className='text-3xl lg:text-5xl clash-font font-semibold'>
+              1. Keep it Simple
+            </h1>
 
+            <p className='text-xl clash-font font-normal text-gray-300 mt-5'>
+              One of the top rules you should keep in mind during the ecommerce design process is "kiss"-keep it simple, silly!
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              When it comes to designing an ecommerce website, <span className='text-prim'> simple is always better</span>.
+              The more elements you have on the page, the more it takes away from the entire point of the website-closing a sale.
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              You dont need a ton of bells and whistles on your ecommerce website-all they do is act as distraction. Keep your
+              design clear, clean, and simple-and keep the focus on the sale.
+            </p>
+          </div>
+
+          <div className='my-20'>
+            <h1 className='text-3xl lg:text-5xl clash-font font-semibold'>
+              2. Make Branding a Priority
+            </h1>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              In todays fast-paced world, customers expect businesses to have a strong online presence.
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              Building a strong brand identity for your ecommerce business is essential for standing out in a crowded market. Your brand
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              A strong brand identity helps you create a memorable and recognizable presence that resonates with your target audience.
+              This can be achieved through a combination of consistent visual elements, such as logos, color schemes, and typography,
+              as well as a clear brand voice and messaging that reflects your brand values and personality.
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-5'>
+              <span className='text-prim'> In addition to visual consistency</span> , it is also important to have a clear brand message
+              that communicates your unique value proposition and resonates with your target audience.
+              Ask yourself questions like:
+            </p>
+
+            <p className='text-md lg:text-xl font-clash font-normal text-white mt-8'>
+              <i className='bi bi-arrow-right text-prim pe-2'></i>{" "}
+              If my brand was a person, who would it be?
+            </p>
+
+            <p className='text-md lg:text-xl font-clash font-normal text-white mt-3'>
+              <i className='bi bi-arrow-right text-prim pe-2'></i>{" "}
+              If I had to describe my brand in three words, what would the be?
+            </p>
+
+            <p className='text-md lg:text-xl font-clash font-normal text-white mt-3'>
+              <i className='bi bi-arrow-right text-prim pe-2'></i>{" "}
+              What makes my brand different from other ecommerce shops out there?
+            </p>
+
+            <p className='text-md lg:text-xl font-clash font-normal text-white mt-3'>
+              <i className='bi bi-arrow-right text-prim pe-2'></i>{" "}
+              What do we do better than anyone else on the market?
+            </p>
+
+            <p className='text-xl font-clash font-normal text-gray-300 mt-8'>
+              Once you know who you are, you can work it into the branding of your ecommerce site.
+              And that branding it'll help build trust with your audience and drive serious sales in the process
+            </p>
+          </div>
+
+          <div className='my-20'>
+            <Image
+              src={post3}
+              alt="post3"
+              loading="eager"
+              className='w-full h-full object-cover rounded-2xl'
+            />
+          </div>
         </div>
       </div>
     </>
