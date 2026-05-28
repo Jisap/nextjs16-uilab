@@ -17,8 +17,8 @@ const page = () => {
         <div className="mt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {BlogsData.map((blog, index) => (
-              <Link href={`/Pages/Blogs/${blog.id}`} key={index} className="">
-                <div className="p-8 rounded-2xl bg-[#2D333C] cursor-pointer">
+              <Link href={`/Pages/Blogs/${blog.id}`} key={index} className="flex h-full">
+                <div className="p-8 rounded-2xl bg-[#2D333C] cursor-pointer flex flex-col h-full w-full">
                   <div className="mt-5 mb-8 rounded-2xl overflow-hidden group">
                     <Image
                       src={blog.image}
@@ -30,7 +30,7 @@ const page = () => {
                     />
                   </div>
 
-                  <span className="clash-font font-medium bg-third text-black px-3 rounded uppercase">
+                  <span className="clash-font font-medium bg-third text-black px-3 rounded uppercase w-max">
                     {blog.tag}
                   </span>
 
@@ -43,7 +43,7 @@ const page = () => {
                   </p>
 
                   {/* Footer de la tarjeta */}
-                  <div className="flex flex-wrap items-center gap-2 mt-5 pt-4 border-t border-gray-600">
+                  <div className="flex flex-wrap items-center gap-2 mt-auto pt-4 border-t border-gray-600">
                     <Image
                       src={blog.authorimg}
                       alt={blog.author}
