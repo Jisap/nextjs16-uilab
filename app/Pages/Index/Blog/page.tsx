@@ -105,6 +105,7 @@ const BlogComponent = () => {
                     alt={blog.author}
                     width={28}
                     height={28}
+                    loading="lazy"
                     className="w-7 h-7 rounded-full object-cover"
                   />
                   <p className="clash-font font-medium text-gray-400 text-sm">{blog.author}</p>
