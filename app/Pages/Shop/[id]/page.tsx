@@ -118,7 +118,7 @@ const ShopDetails = () => {
           </div>
         </div>
 
-        <div className='mt-10 bg-[#2d33c] rounded-2xl p-10 lg:p-22'>
+        <div className='mt-10 bg-[#2d333c] rounded-2xl p-10 lg:p-22'>
           <h2 className='clash-font text-3xl lg:text-5xl font-bold text-gray-300'>
             Description
           </h2>
@@ -127,6 +127,54 @@ const ShopDetails = () => {
             Soft rubberized backpack available in serveral colors. Features a front zip compartment, adjustable shoulder straps and padded back panel.
             Perfect for school, work or weekend trips. The interior features a padded laptop sleeve and multiple pockets to keep your essentials organized.
           </p>
+
+          <div className='product-list mt-5 space-y-2'>
+            <li className='flex items-center gap-2 text-gray-300 text-xl clash-font font-medium'>
+              <i className='bi bi-arrow-right-short text-prim text-xl'></i>
+              The main compartment is twisted and fastened with buckles.
+            </li>
+
+            <li className='flex items-center gap-2 text-gray-300 text-xl clash-font font-medium'>
+              <i className='bi bi-arrow-right-short text-prim text-xl'></i>
+              The front zippered pocket keeps your keys and phone easily accessible, while the padded interior sleeve.
+            </li>
+
+            <li className='flex items-center gap-2 text-gray-300 text-xl clash-font font-medium'>
+              <i className='bi bi-arrow-right-short text-prim text-xl'></i>
+              Perfect for school, work, or weekend trips, it combines durability with modern design.
+            </li>
+          </div>
+
+          <p className='text-xl clash-font text-gray-200 mt-4'>
+            Available in several colors: choose the one that best suits your style and needs. Nowadays, if
+            the product sells in higher quantities, it's not always easy to keep up with the demand.
+            You may need to increase your production, but you also want to make sure that the quality of the
+            product remains high. That's why it's important to have a good understanding of your production
+            capacity and to plan accordingly. You should also make sure that you have a good relationship with
+            your suppliers and that you can rely on them to provide you with the materials you need.
+          </p>
+
+          <p className='text-xl clash-font text-gray-200 mt-4'>
+            If demand outpaces your production capacity, you may need to scale up your operations. However, maintaining
+            product quality is paramount. A thorough understanding of your production capacity and meticulous planning are essential.
+            Furthermore, cultivating strong relationships with your suppliers ensures a reliable supply chain.
+          </p>
+
+          <p className='text-xl clash-font text-gray-200 mt-4'>
+            By monitoring sales trends and maintaining open communication with your distributors, you can anticipate demand fluctuations
+            and proactively adjust production levels. This forward-thinking approach allows you to meet customer needs effectively
+            while upholding the standards of excellence that define your brand.
+          </p>
+        </div>
+
+        <div className='mt-5 py-10'>
+          <div className='flex flex-wrap justify-between items-center gap-5'>
+            <div className='title'>
+              <h1 className='clash-font font-semibold text-5xl md:text-6xl'>
+                Related Products
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
     </>
