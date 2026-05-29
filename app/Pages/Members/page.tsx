@@ -23,7 +23,7 @@ const Members = () => {
             {MembersData.map((member, index) => (
               <Link
                 key={index}
-                href={`/Pages/members/${member.id}`}
+                href={`/Pages/Members/${member.id}`}
                 className="p-5 md:p-8 rounded-2xl bg-[#2d333c] cursor-pointer"
               >
                 <div className="rounded-2xl group">
