@@ -92,10 +92,33 @@ const MembersDetails = () => {
                   <span>•</span>
                   <p>{member.joined}</p>
                 </div>
+
+                <div className="w-full mt-5 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-5">
+                  <div className="flex gap-4">
+                    <i className="bi bi-instagram w-8 h-8 border border-gray-500 rounde flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                    <i className="bi bi-twitter w-8 h-8 border border-gray-500 rounde flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                    <i className="bi bi-facebook w-8 h-8 border border-gray-500 rounde flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                    <i className="bi bi-linkedin w-8 h-8 border border-gray-500 rounde flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300 cursor-pointer"></i>
+                  </div>
+
+                  <div className="flex flex-wrap gap-4">
+                    <button className="border border-gray-500 px-5 py-5 text-white rounded-md text-xl clash-font font-medium hover:bg-white hover:text-black transition-all duration-300 cursor-poiner">
+                      <i className="bi bi-balloon-heart text-prim"></i>{" "} Follow
+                    </button>
+                    <button className="border border-gray-500 px-5 py-5 text-white rounded-md text-xl clash-font font-medium hover:bg-white hover:text-black transition-all duration-300 cursor-poiner">
+                      <i className="bi bi-person-plus text-prim"></i>{" "} Add Friend
+                    </button>
+                    <button className="border border-gray-500 px-5 py-5 text-white rounded-md text-xl clash-font font-medium hover:bg-white hover:text-black transition-all duration-300 cursor-poiner">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Members Info */}
       </div>
     </>
   )
