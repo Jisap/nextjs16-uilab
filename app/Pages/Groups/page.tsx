@@ -1,6 +1,7 @@
 "use client"
 
 import GroupData from "@/app/JsonData/GroupsData.json"
+import Image from "next/image";
 import { useState } from "react"
 
 const Groups = () => {
@@ -82,6 +83,26 @@ const Groups = () => {
                   >
                     {group.tag}
                   </span>
+
+                  <h2 className="clash-font font-semibold text-4xl mt-3 text-white hover:text-prim transition-all duration-300">
+                    {group.title}
+                  </h2>
+
+                  <div className="flex items-center gap-2">
+                    <p className="text-gray-400 text-xs">{group.date}</p>
+                    <p className="text-gray-400 text-shadow-md">•</p>
+                    <p className="text-gray-400 text-xs">{group.member}</p>
+                  </div>
+
+                  <div className="mt-5 rounded-2xl overflow-hidden group">
+                    <Image
+                      src={group.image}
+                      alt={group.title}
+                      width={500}
+                      height={500}
+                      className="w-full h-full rounded-2xl group-hover:scale-110 transition-all duration-300"
+                    />
+                  </div>
                 </div>
               </div>
             ))}
