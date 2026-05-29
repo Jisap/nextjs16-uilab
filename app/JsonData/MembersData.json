@@ -5,7 +5,7 @@
     "name": "Marcus Chen",
     "username": "#mchen.designflow",
     "joined": "Joined Mar 2021",
-    "image": "/member-1.png"
+    "image": "/Images/member-1.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "name": "Sarah Jenkins",
     "username": "#sjenkins.devcode",
     "joined": "Joined Jan 2022",
-    "image": "/member-2.png"
+    "image": "/Images/member-2.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "name": "David Kim",
     "username": "#dkim.productlead",
     "joined": "Joined Nov 2019",
-    "image": "/member-3.png"
+    "image": "/Images/member-3.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "name": "Elena Rossi",
     "username": "#erossi.writestudio",
     "joined": "Joined Sep 2021",
-    "image": "/member-4.png"
+    "image": "/Images/member-4.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "name": "James Carter",
     "username": "#jcarter.researchhub",
     "joined": "Joined Apr 2023",
-    "image": "/member-5.png"
+    "image": "/Images/member-5.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "Rachel Moore",
     "username": "#rmoore.brandart",
     "joined": "Joined Feb 2020",
-    "image": "/member-6.png"
+    "image": "/Images/member-6.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "Oliver Hayes",
     "username": "#ohayes.motionlab",
     "joined": "Joined Aug 2022",
-    "image": "/member-7.png"
+    "image": "/Images/member-7.png"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "Priya Sharma",
     "username": "#psharma.datainsights",
     "joined": "Joined Dec 2021",
-    "image": "/member-8.png"
+    "image": "/Images/member-8.png"
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "name": "Leila Calderon",
     "username": "#lcalderong.paraleot",
     "joined": "Joined Jul 2020",
-    "image": "/member-9.png"
+    "image": "/Images/member-9.png"
   }
 ]
