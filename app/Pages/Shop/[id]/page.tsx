@@ -4,6 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import ShopData from '@/app/JsonData/ShopData.json'
+import { useRef } from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Autoplay, Navigation } from "swiper/modules"
+import "swiper/css"
+import "swiper/css/navigation"
+
 
 const ShopDetails = () => {
 
@@ -18,6 +24,9 @@ const ShopDetails = () => {
       </div>
     )
   }
+
+  const prevRef = useRef<HTMLDivElement | null>(null)
+  const nextRef = useRef<HTMLDivElement | null>(null)
 
   return (
     <>
@@ -80,15 +89,15 @@ const ShopDetails = () => {
                 {product.price}
               </h3>
 
-              <p className='text-gray-300 mt-5 clash-font font-medium'>
+              <p className='text-gray-300 mt-5 font-normal tracking-wide'>
                 Elevate your everyday with our premium selection of high-quality products, meticulously crafted to bring both style and functionality to your life.
               </p>
 
-              <p className='text-gray-300 mt-5 clash-font font-medium'>
+              <p className='text-gray-300 mt-5 font-normal tracking-wide'>
                 Perfect for gifting or treating yourself, each item is a testament to quality craftsmanship and thoughtful design. Explore the collection and find pieces that resonate with your lifestyle.
               </p>
 
-              <p className='text-gray-300 mt-5 clash-font font-medium'>
+              <p className='text-gray-300 mt-5 font-normal tracking-wide'>
                 Discover the perfect blend of innovation and design that reflects your unique taste and elevates your daily routine.
               </p>
 
@@ -123,7 +132,7 @@ const ShopDetails = () => {
             Description
           </h2>
 
-          <p className='mt-5 text-gray-300 clash-font font-medium'>
+          <p className='mt-5 text-gray-300 text-lg leading-8 tracking-[0.015em] font-normal'>
             Soft rubberized backpack available in serveral colors. Features a front zip compartment, adjustable shoulder straps and padded back panel.
             Perfect for school, work or weekend trips. The interior features a padded laptop sleeve and multiple pockets to keep your essentials organized.
           </p>
@@ -145,7 +154,7 @@ const ShopDetails = () => {
             </li>
           </div>
 
-          <p className='text-xl clash-font text-gray-200 mt-4'>
+          <p className='mt-5 text-gray-300 text-lg leading-8 tracking-[0.015em] font-normal'>
             Available in several colors: choose the one that best suits your style and needs. Nowadays, if
             the product sells in higher quantities, it's not always easy to keep up with the demand.
             You may need to increase your production, but you also want to make sure that the quality of the
@@ -154,13 +163,13 @@ const ShopDetails = () => {
             your suppliers and that you can rely on them to provide you with the materials you need.
           </p>
 
-          <p className='text-xl clash-font text-gray-200 mt-4'>
+          <p className='mt-5 text-gray-300 text-lg leading-8 tracking-[0.015em] font-normal'>
             If demand outpaces your production capacity, you may need to scale up your operations. However, maintaining
             product quality is paramount. A thorough understanding of your production capacity and meticulous planning are essential.
             Furthermore, cultivating strong relationships with your suppliers ensures a reliable supply chain.
           </p>
 
-          <p className='text-xl clash-font text-gray-200 mt-4'>
+          <p className='mt-5 text-gray-300 text-lg leading-8 tracking-[0.015em] font-normal'>
             By monitoring sales trends and maintaining open communication with your distributors, you can anticipate demand fluctuations
             and proactively adjust production levels. This forward-thinking approach allows you to meet customer needs effectively
             while upholding the standards of excellence that define your brand.
@@ -174,7 +183,91 @@ const ShopDetails = () => {
                 Related Products
               </h1>
             </div>
+
+            <div className="flex items-center gap-3">
+              <div
+                ref={prevRef}
+                className="w-13 h-13 cursor-pointer border border-gray-500 rounded-md hover:bg-white hover:text-black flex justify-center items-center transition-all duration-300"
+              >
+                <i className="bi bi-arrow-left text-2xl"></i>
+              </div>
+
+              <div
+                ref={nextRef}
+                className="w-13 h-13 cursor-pointer border border-gray-500 rounded-md hover:bg-white hover:text-black flex justify-center items-center transition-all duration-300"
+              >
+                <i className="bi bi-arrow-right text-2xl"></i>
+              </div>
+            </div>
           </div>
+        </div>
+
+        <div className="mt-10">
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={20}
+            loop={true}
+            autoplay={{
+              delay: 2000
+            }}
+            modules={[Autoplay, Navigation]}
+            navigation={{
+              prevEl: prevRef.current,
+              nextEl: nextRef.current,
+            }}
+            onInit={(swiper) => {
+              const nav = swiper.params.navigation as any;
+              nav.prevEl = prevRef.current;
+              nav.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            breakpoints={{
+              1200: { slidesPerView: 3 },
+              991: { slidesPerView: 2 },
+              575: { slidesPerView: 1 },
+              0: { slidesPerView: 1 },
+            }}
+          >
+            {ShopData.map((product, index) => (
+              <SwiperSlide key={index}>
+                <Link href={`/Pages/Shop/${product.id}`}>
+                  <div className="p-5 md:p-8 rounded-2xl bg-[#2d333c] cursor-pointer">
+                    <div className="rounded-2xl overflow-hidden group relative">
+                      <Image
+                        src={product.image}
+                        alt={product.title}
+                        width={500}
+                        height={500}
+                        loading="eager"
+                        className="w-full h-full rounded-2xl group-hover:scale-110 transition-all duration-300"
+                      />
+
+                      <span className={`
+                        absolute top-5 left-5 px-4 rounded-2xl clash-font font-semibold 
+                        ${product.sale === "Sale" ? "bg-prim text-black" : ""} 
+                        ${product.sale === "New" ? "bg-second text-black" : ""} 
+                        ${product.sale === "" ? "hidden" : ""}`
+                      }
+                      >
+                        {product.sale}
+                      </span>
+                    </div>
+
+                    <div className="mt-5">
+                      <p className="text-gray-400">{product.tag}</p>
+                      <h2 className="clash-font font-medium text-4xl lg:text-5xl hover:text-prim text-white transition-all duration-300">{product.title}</h2>
+                      <h4 className="text-4xl clash-font font-semibold text-forth mt-3">{product.price}</h4>
+
+                      <div className="border border-gray-400 text-white text-center mt-3 py-3 rounded-xl hover:bg-white hover:text-black font-bold transition-all duration-300 ">
+                        View Product
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </>
