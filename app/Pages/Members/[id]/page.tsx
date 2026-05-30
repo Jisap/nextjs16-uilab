@@ -267,7 +267,105 @@ const MembersDetails = () => {
               </div>
 
               {/* Groups */}
+              <div className="p-8 mt-5 bg-[#2d333c] text-white rounded-2xl flex flex-col gap-3">
+                <h2 className="text-3xl clash-font font-semibold">Groups</h2>
+                {GroupsData.slice(0, 4).map((group, index) => (
+                  <div className="flex gap-5" key={index}>
+                    <div>
+                      <Image
+                        src={group.image}
+                        alt={group.title}
+                        width={80}
+                        height={80}
+                        className="object-center rounded-md"
+                      />
+                    </div>
 
+                    <div>
+                      <h2 className="text-2xl clash-font font-semibold">{group.title}</h2>
+                      <p className="text-gray-400">{group.member}</p>
+                    </div>
+                  </div>
+                ))}
+
+                <Link href={'/Pages/Groups'} className="w-full">
+                  <button className="border border-gray-500 w-full py-2 rounded-md clash-font font-semibold hover:bg-gray-400/50 transition-all duration-300 cursor-pointer">
+                    View More
+                  </button>
+                </Link>
+              </div>
+
+              {/* Members */}
+              <div className="p-8 mt-5 bg-[#2d333c] text-white rounded-2xl flex flex-col gap-3">
+                <h2 className="text-3xl clash-font font-semibold">Members</h2>
+
+                {MembersData.slice(0, 4).map((member, index) => (
+                  <Link href={`/Pages/Members/${member.id}`} className="flex gap-5" key={index}>
+                    <div>
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={80}
+                        height={80}
+                        className="object-center rounded-md"
+                      />
+                    </div>
+
+                    <div>
+                      <h2 className="text-2xl clash-font font-semibold">{member.name}</h2>
+                      <p className="text-gray-400">{member.type}</p>
+                    </div>
+                  </Link>
+                ))}
+
+                <Link href={'/Pages/Members'} className="w-full">
+                  <button className="border border-gray-500 w-full py-2 rounded-md clash-font font-semibold hover:bg-gray-400/50 transition-all duration-300 cursor-pointer">
+                    View More
+                  </button>
+                </Link>
+              </div>
+
+              {/* Recent Posts */}
+              <div className="p-8 mt-5 bg-[#2d333c] text-white rounded-2xl flex flex-col gap-4">
+                <h2 className="text-2xl clash-font font-semibold">Recent Posts</h2>
+
+                {BlogData && BlogData.length > 0 ? (
+                  BlogData.slice(0, 4).map((blog, index) => (
+                    <Link
+                      href={`/Pages/Blogs/${blog.id}`}
+                      key={blog.id || index}
+                      className="group flex items-start gap-4 p-2 -mx-2 rounded-lg hover:bg-white/5 transition-all duration-300"
+                    >
+                      <div className="shrink-0">
+                        <Image
+                          src={blog.image}
+                          alt={blog.title}
+                          width={80}
+                          height={80}
+                          className="w-20 h-20 object-cover rounded-lg"
+                        />
+                      </div>
+
+                      <div className="flex flex-col justify-center min-w-0">
+                        <h3 className="text-base clash-font font-medium leading-snug line-clamp-2 group-hover:text-prim transition-colors duration-300">
+                          {blog.title}
+                        </h3>
+                        <p className="text-sm text-gray-400 mt-1">{blog.date}</p>
+                      </div>
+                    </Link>
+                  ))
+                ) : (
+                  <p className="text-gray-400 text-sm clash-font py-2">No recent posts available.</p>
+                )}
+
+                <Link href="/Pages/Blogs" className="w-full mt-2">
+                  <button className="w-full py-2.5 rounded-lg border border-gray-600 text-gray-300 clash-font font-medium hover:bg-prim hover:text-black hover:border-prim transition-all duration-300 cursor-pointer">
+                    View More
+                  </button>
+                </Link>
+              </div>
+
+              {/* Media */}
             </div>
           </div>
         </div>
