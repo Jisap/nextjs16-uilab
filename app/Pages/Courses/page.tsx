@@ -15,19 +15,21 @@ const Courses = () => {
         </div>
 
         <div className="mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
             {CourseData.map((course, index) => (
-              <Link href={`/Pages/Courses/${course.id}`} key={index}>
-                <div className="p-5 rounded-2xl bg-[#2d333c] cursor-pointer">
-                  <span className="clash-font font-medium text-black px-2 py-1 rounded bg-second">
-                    {course.tag}
-                  </span>
+              <Link href={`/Pages/Courses/${course.id}`} key={index} className="block h-full">
+                <div className="p-5 rounded-2xl bg-[#2d333c] cursor-pointer h-full flex flex-col">
+                  <div>
+                    <span className="clash-font font-medium text-black px-2 py-1 inline-block rounded bg-second">
+                      {course.tag}
+                    </span>
+                  </div>
 
                   <h2 className="clash-font font-semibold text-4xl mt-3 text-white hover:text-prim transition-all duration-300">
                     {course.title}
                   </h2>
 
-                  <div className="flex flex-wrap items-center gap-3 mt-5">
+                  <div className="flex flex-wrap items-center gap-3 mt-5 mb-5">
                     <p className="text-gray-400 clash-font font-medium text-md">
                       4.5{"  "}
                       <i className="bi bi-star-fill text-yellow-300"></i>
@@ -58,7 +60,7 @@ const Courses = () => {
                     />
                   </div>
 
-                  <div className="mt-5 rounded-2xl overflow-hidden group relative">
+                  <div className="mt-auto rounded-2xl overflow-hidden group relative">
                     <h2 className="absolute bottom-5 right-5 z-10 clash-font font-semibold text-3xl text-white bg-black px-6 py-3 rounded-2xl transition-all duration-300">
                       {course.price}
                     </h2>
