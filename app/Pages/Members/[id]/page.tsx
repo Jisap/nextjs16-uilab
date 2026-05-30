@@ -366,6 +366,17 @@ const MembersDetails = () => {
               </div>
 
               {/* Media */}
+              {/* <div className="p-8 mt-5 bg-[#2d333c] text-white rounded-2xl flex flex-col gap-3">
+                <h2 className="text-3xl clash-font font-semibold">Media</h2>
+                {MemberGallery.map((gallery, index) => (
+                  <Image
+                    key={index}
+                    src={gallery}
+                    alt={`Gallery-${index}`}
+                    className="w-full h-full object-center rounded-2xl"
+                  />
+                ))}
+              </div> */}
             </div>
           </div>
         </div>
