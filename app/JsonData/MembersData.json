@@ -6,7 +6,81 @@
     "username": "#mchen.designflow",
     "joined": "Joined Mar 2021",
     "image": "/Images/member-1.png",
-    "origin": "New York, USA"
+    "origin": "New York, USA",
+    "type": "freelancer",
+    "gender": "male",
+    "dateOfBirth": "1988-04-12",
+    "email": "marcus.chen@designflow.com",
+    "phone": "+1 212-555-0142",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Native"
+      },
+      {
+        "language": "Mandarin",
+        "level": "Fluent"
+      }
+    ],
+    "about": [
+      "Hello, my name is Marcus Chen, and I am a highly skilled UX Designer located in New York, USA. With over 8 years of experience in the field, I have honed my skills to the highest level, and I am committed to creating exceptional designs that meet my clients' needs.",
+      "I have a passion for problem-solving and a keen eye for detail, which allows me to deliver high-quality work that exceeds expectations. I am also a team player and enjoy collaborating with others to achieve common goals.",
+      "I am confident in my ability to deliver high-quality work that meets my clients' needs, and I am always looking for new challenges and opportunities to grow as a designer."
+    ],
+    "skills": [
+      {
+        "title": "Figma",
+        "icon": "/Images/member-skill-4.svg"
+      },
+      {
+        "title": "Sketch",
+        "icon": "/Images/member-skill-2.svg"
+      },
+      {
+        "title": "Invision",
+        "icon": "/Images/member-skill-3.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2020-2022",
+        "role": "Senior UX Designer",
+        "company": "TechFlow Inc. - New York, USA",
+        "description": "Led end-to-end design for 3 enterprise SaaS products, improving user retention by 28% through iterative usability testing and data-driven design decisions.",
+        "activities": [
+          "Conducted user research sessions and synthesized findings into actionable design requirements.",
+          "Created wireframes, interactive prototypes, and high-fidelity UI mockups for web and mobile platforms.",
+          "Maintained and scaled the company's design system, ensuring consistency across 5 product teams.",
+          "Presented design solutions to stakeholders and incorporated feedback into sprint deliverables.",
+          "Collaborated closely with frontend developers to ensure pixel-perfect implementation."
+        ]
+      },
+      {
+        "period": "2017-2020",
+        "role": "UX/UI Designer",
+        "company": "PixelCraft Agency - New York, USA",
+        "description": "Designed responsive web and mobile interfaces for 15+ clients across fintech and healthcare, establishing scalable design systems and component libraries.",
+        "activities": [
+          "Developed user journey maps and information architecture for client dashboards.",
+          "Designed responsive layouts adhering to WCAG 2.1 accessibility standards.",
+          "Facilitated design workshops and usability testing with target audiences.",
+          "Delivered production-ready assets and style guides to development teams.",
+          "Mentored 2 junior designers on UX methodologies and Figma best practices."
+        ]
+      },
+      {
+        "period": "2015-2017",
+        "role": "Junior Product Designer",
+        "company": "StartUp Studio - Brooklyn, USA",
+        "description": "Supported senior designers in wireframing, prototyping, and user research for early-stage startups, gaining hands-on experience in agile design workflows.",
+        "activities": [
+          "Assisted in creating low-fidelity wireframes and clickable prototypes for MVP validation.",
+          "Conducted competitor analysis and heuristic evaluations to identify UX gaps.",
+          "Participated in daily stand-ups and sprint planning within an Agile framework.",
+          "Documented design decisions and maintained a centralized research repository."
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -15,7 +89,84 @@
     "username": "#sjenkins.devcode",
     "joined": "Joined Jan 2022",
     "image": "/Images/member-2.png",
-    "origin": "Paris, France"
+    "origin": "Paris, France",
+    "type": "contractor",
+    "gender": "female",
+    "dateOfBirth": "1992-11-03",
+    "email": "sarah.j@devcode.fr",
+    "phone": "+33 1 42 68 55 00",
+    "languages": [
+      {
+        "language": "French",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "about": [
+      "Hi, I'm Sarah Jenkins, a Frontend Developer based in Paris with a strong focus on building responsive and accessible web applications.",
+      "My expertise lies in modern JavaScript frameworks, CSS architecture, and performance optimization. I thrive on turning complex UI/UX designs into pixel-perfect, interactive experiences.",
+      "I believe in clean code, continuous learning, and the power of open-source collaboration. Always eager to tackle new technical challenges."
+    ],
+    "skills": [
+      {
+        "title": "React",
+        "icon": "/Images/member-skill-1.svg"
+      },
+      {
+        "title": "TypeScript",
+        "icon": "/Images/member-skill-2.svg"
+      },
+      {
+        "title": "Tailwind",
+        "icon": "/Images/member-skill-3.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2021-2024",
+        "role": "Senior Frontend Engineer",
+        "company": "WebScale Solutions - Paris, France",
+        "description": "Architected micro-frontend dashboards serving 50k+ daily users, reducing bundle size by 42% through code splitting and lazy loading strategies.",
+        "activities": [
+          "Developed reusable React components and custom hooks for cross-product consistency.",
+          "Implemented state management using Redux Toolkit and React Query for API caching.",
+          "Optimized Core Web Vitals through image lazy loading, code splitting, and SSR implementation.",
+          "Led code reviews and established ESLint/Prettier CI/CD pipelines.",
+          "Collaborated with UX designers to ensure design-system token alignment."
+        ]
+      },
+      {
+        "period": "2019-2021",
+        "role": "Frontend Developer",
+        "company": "CodeBase Labs - Paris, France",
+        "description": "Developed and maintained high-traffic e-commerce platforms, implementing PWA features that increased mobile conversion rates by 19%.",
+        "activities": [
+          "Built responsive checkout flows with form validation and payment gateway integration.",
+          "Implemented service workers for offline caching and push notifications.",
+          "Wrote unit and integration tests using Jest and React Testing Library.",
+          "Debugged cross-browser compatibility issues and resolved performance bottlenecks."
+        ]
+      },
+      {
+        "period": "2017-2019",
+        "role": "Web Developer Intern",
+        "company": "Digital Dynamics - Lyon, France",
+        "description": "Assisted in migrating legacy jQuery codebases to modern Vue.js applications, writing unit tests and improving CI/CD pipeline reliability.",
+        "activities": [
+          "Refactored legacy DOM manipulation scripts into Vue component architecture.",
+          "Configured Webpack build scripts and optimized asset bundling.",
+          "Assisted in setting up GitHub Actions for automated testing and deployment.",
+          "Participated in weekly tech talks and documented internal migration guidelines."
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -24,7 +175,80 @@
     "username": "#dkim.productlead",
     "joined": "Joined Nov 2019",
     "image": "/Images/member-3.png",
-    "origin": "Toronto, Canada"
+    "origin": "Toronto, Canada",
+    "type": "full-time",
+    "gender": "male",
+    "dateOfBirth": "1985-07-22",
+    "email": "david.kim@innovate.ca",
+    "phone": "+1 647-555-0198",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Native"
+      },
+      {
+        "language": "Korean",
+        "level": "Fluent"
+      }
+    ],
+    "about": [
+      "I'm David Kim, a Product Manager from Toronto passionate about bridging the gap between user needs and business goals.",
+      "With a background in both engineering and design, I excel at translating complex requirements into clear product roadmaps and actionable user stories.",
+      "I lead cross-functional teams with empathy and data, ensuring we ship valuable features that drive measurable impact."
+    ],
+    "skills": [
+      {
+        "title": "Jira",
+        "icon": "/Images/member-skill-5.svg"
+      },
+      {
+        "title": "Notion",
+        "icon": "/Images/member-skill-6.png"
+      },
+      {
+        "title": "Miro",
+        "icon": "/Images/member-skill-1.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2019-2023",
+        "role": "Product Manager",
+        "company": "InnovateTech - Toronto, Canada",
+        "description": "Spearheaded the launch of 3 major product lines, managing end-to-end lifecycle from ideation to post-launch analytics and iteration.",
+        "activities": [
+          "Defined product vision, OKRs, and quarterly roadmaps aligned with business objectives.",
+          "Prioritized backlogs using RICE scoring and stakeholder feedback loops.",
+          "Led cross-functional squads (engineering, design, QA) through 2-week Agile sprints.",
+          "Analyzed user behavior via Mixpanel and Google Analytics to inform feature iterations.",
+          "Conducted customer interviews and translated insights into PRDs and user stories."
+        ]
+      },
+      {
+        "period": "2016-2019",
+        "role": "Associate Product Manager",
+        "company": "GrowthPath Inc. - Toronto, Canada",
+        "description": "Defined product requirements and prioritized backlogs for a B2B analytics platform, increasing feature adoption by 34% through targeted user onboarding.",
+        "activities": [
+          "Mapped user workflows and created low-fidelity prototypes for stakeholder alignment.",
+          "Wired acceptance criteria and conducted UAT before production releases.",
+          "Coordinated go-to-market strategies with marketing and sales teams.",
+          "Monitored KPIs and presented weekly performance reports to leadership."
+        ]
+      },
+      {
+        "period": "2014-2016",
+        "role": "Business Analyst",
+        "company": "DataFlow Corp - Vancouver, Canada",
+        "description": "Mapped user journeys and conducted market research to inform product strategy, delivering actionable insights that reduced customer churn by 15%.",
+        "activities": [
+          "Gathered and documented business requirements using BPMN and user story mapping.",
+          "Conducted competitive analysis and SWOT evaluations for new market entries.",
+          "Facilitated requirements workshops with engineering and operations teams.",
+          "Created dashboards in Power BI to track adoption metrics and support decision-making."
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -33,7 +257,84 @@
     "username": "#erossi.writestudio",
     "joined": "Joined Sep 2021",
     "image": "/Images/member-4.png",
-    "origin": "Berlin, Germany"
+    "origin": "Berlin, Germany",
+    "type": "freelancer",
+    "gender": "female",
+    "dateOfBirth": "1990-01-15",
+    "email": "elena.rossi@writestudio.de",
+    "phone": "+49 30 1234 5678",
+    "languages": [
+      {
+        "language": "Italian",
+        "level": "Native"
+      },
+      {
+        "language": "German",
+        "level": "Fluent"
+      },
+      {
+        "language": "English",
+        "level": "Advanced"
+      }
+    ],
+    "about": [
+      "Ciao! I'm Elena Rossi, a Content Strategist based in Berlin who specializes in brand storytelling and SEO-driven content ecosystems.",
+      "I help companies find their voice and connect with their audience through compelling narratives, structured content models, and data-backed editorial calendars.",
+      "Writing isn't just about words; it's about architecture, intent, and driving meaningful user engagement."
+    ],
+    "skills": [
+      {
+        "title": "SEO Tools",
+        "icon": "/Images/member-skill-2.svg"
+      },
+      {
+        "title": "WordPress",
+        "icon": "/Images/member-skill-4.svg"
+      },
+      {
+        "title": "Copywriting",
+        "icon": "/Images/member-skill-6.png"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2021-2024",
+        "role": "Lead Content Strategist",
+        "company": "GlobalMedia GmbH - Berlin, Germany",
+        "description": "Designed and executed content strategies that increased organic traffic by 150% and established thought leadership across 5 industry verticals.",
+        "activities": [
+          "Developed editorial calendars and content pillars aligned with SEO keyword research.",
+          "Managed a team of 4 writers and editors, establishing quality standards and review workflows.",
+          "Implemented content audits and information architecture improvements for legacy sites.",
+          "Tracked performance via GA4 and Search Console, iterating strategy based on engagement metrics.",
+          "Collaborated with design and dev teams to implement schema markup and CMS optimizations."
+        ]
+      },
+      {
+        "period": "2018-2021",
+        "role": "Content Editor & SEO Specialist",
+        "company": "WordCraft Agency - Berlin, Germany",
+        "description": "Managed editorial workflows for 20+ clients, optimizing content architecture and implementing schema markup that boosted SERP visibility by 68%.",
+        "activities": [
+          "Performed keyword gap analysis and created topic cluster maps for client websites.",
+          "Edited and optimized blog posts, landing pages, and product descriptions for readability and SEO.",
+          "Coordinated with technical teams to resolve crawl errors and improve site speed.",
+          "Produced monthly performance reports and presented ROI insights to clients."
+        ]
+      },
+      {
+        "period": "2016-2018",
+        "role": "Copywriter",
+        "company": "Creative Minds Studio - Munich, Germany",
+        "description": "Produced high-converting landing pages, email campaigns, and brand messaging for startups, maintaining consistent tone-of-voice across all touchpoints.",
+        "activities": [
+          "Wrote compelling CTAs, value propositions, and UX microcopy for web and mobile apps.",
+          "Developed brand voice guidelines and content templates for marketing teams.",
+          "Conducted A/B testing on email subject lines and landing page copy.",
+          "Managed editorial assets and version control in Google Drive and Notion."
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -42,7 +343,77 @@
     "username": "#jcarter.researchhub",
     "joined": "Joined Apr 2023",
     "image": "/Images/member-5.png",
-    "origin": "New York, USA"
+    "origin": "New York, USA",
+    "type": "part-time",
+    "gender": "male",
+    "dateOfBirth": "1994-09-08",
+    "email": "james.carter@researchhub.com",
+    "phone": "+1 212-555-0173",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Native"
+      }
+    ],
+    "about": [
+      "I'm James Carter, a UI/UX Researcher dedicated to uncovering the 'why' behind user behavior through rigorous qualitative and quantitative methods.",
+      "I conduct usability testing, heuristic evaluations, and journey mapping to ensure every design decision is rooted in real user needs.",
+      "My goal is to eliminate guesswork and create frictionless digital experiences that users genuinely love."
+    ],
+    "skills": [
+      {
+        "title": "UserTesting",
+        "icon": "/Images/member-skill-3.svg"
+      },
+      {
+        "title": "Hotjar",
+        "icon": "/Images/member-skill-5.svg"
+      },
+      {
+        "title": "Figma",
+        "icon": "/Images/member-skill-4.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2023-Present",
+        "role": "UX Researcher",
+        "company": "InsightLabs - New York, USA",
+        "description": "Lead research initiatives for enterprise clients, synthesizing complex data into actionable design recommendations that improved task completion rates by 28%.",
+        "activities": [
+          "Designed and moderated remote and in-person usability tests for complex SaaS platforms.",
+          "Analyzed quantitative survey data and qualitative interview transcripts using NVivo and Dovetail.",
+          "Built research repositories and tagged insights for cross-team accessibility.",
+          "Presented findings to product and engineering teams, prioritizing recommendations by impact/effort.",
+          "Established research ops processes, including participant recruitment and consent management."
+        ]
+      },
+      {
+        "period": "2020-2023",
+        "role": "User Research Analyst",
+        "company": "TechVision Inc. - New York, USA",
+        "description": "Conducted 200+ moderated usability sessions, built research repositories, and created persona frameworks that guided product roadmap decisions.",
+        "activities": [
+          "Developed testing protocols, screeners, and discussion guides for iterative product research.",
+          "Mapped user journeys and identified pain points through heuristic evaluations.",
+          "Collaborated with data scientists to correlate behavioral analytics with qualitative feedback.",
+          "Authored research reports and delivered actionable insights to leadership quarterly.",
+          "Trained junior researchers on best practices for moderated testing and note-taking."
+        ]
+      },
+      {
+        "period": "2018-2020",
+        "role": "Research Intern",
+        "company": "Human-Centered Design Lab - Boston, USA",
+        "description": "Assisted in academic and industry research projects, learning mixed-methods evaluation and contributing to peer-reviewed UX publications.",
+        "activities": [
+          "Assisted in designing survey instruments and conducting pilot usability studies.",
+          "Transcribed and coded interview data using thematic analysis techniques.",
+          "Supported literature reviews on cognitive load and accessibility in digital interfaces.",
+          "Prepared research posters and assisted in presenting findings at academic conferences."
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -51,7 +422,80 @@
     "username": "#rmoore.brandart",
     "joined": "Joined Feb 2020",
     "image": "/Images/member-6.png",
-    "origin": "Tokyo, Japan"
+    "origin": "Tokyo, Japan",
+    "type": "freelancer",
+    "gender": "female",
+    "dateOfBirth": "1991-06-20",
+    "email": "rachel.moore@brandart.jp",
+    "phone": "+81 3-1234-5678",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Native"
+      },
+      {
+        "language": "Japanese",
+        "level": "Intermediate"
+      }
+    ],
+    "about": [
+      "Hello, I'm Rachel Moore, a Brand Illustrator from Tokyo who blends Eastern aesthetics with modern digital techniques.",
+      "I specialize in creating custom vector illustrations, icon systems, and visual identities that give brands a distinctive, memorable personality.",
+      "Every stroke is intentional, every color palette tells a story, and every design is crafted to resonate across cultures."
+    ],
+    "skills": [
+      {
+        "title": "Illustrator",
+        "icon": "/Images/member-skill-1.svg"
+      },
+      {
+        "title": "Procreate",
+        "icon": "/Images/member-skill-6.png"
+      },
+      {
+        "title": "Photoshop",
+        "icon": "/Images/member-skill-2.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2020-2023",
+        "role": "Freelance Brand Illustrator",
+        "company": "Self-Employed - Tokyo, Japan",
+        "description": "Delivered over 200 custom illustration projects for startups and agencies, specializing in tech branding, editorial illustrations, and NFT collections.",
+        "activities": [
+          "Developed custom illustration styles aligned with client brand guidelines and target audiences.",
+          "Created scalable vector assets, icon sets, and pattern libraries for web and print use.",
+          "Managed client relationships, contracts, and project timelines using Notion and Asana.",
+          "Prepared print-ready files with proper color profiles, bleeds, and resolution standards.",
+          "Curated and promoted portfolio pieces across Behance, Dribbble, and Instagram."
+        ]
+      },
+      {
+        "period": "2018-2020",
+        "role": "Graphic Designer & Illustrator",
+        "company": "Artisan Print Co. - Osaka, Japan",
+        "description": "Designed packaging, marketing collateral, and custom typography for lifestyle brands, ensuring print-ready accuracy and color consistency.",
+        "activities": [
+          "Produced packaging mockups and dielines for FMCG products using Adobe Illustrator.",
+          "Designed promotional posters, brochures, and business cards adhering to brand systems.",
+          "Coordinated with printers to verify color calibration, paper stocks, and finishing techniques.",
+          "Maintained asset libraries and version control for multi-brand campaigns."
+        ]
+      },
+      {
+        "period": "2016-2018",
+        "role": "Junior Illustrator",
+        "company": "Creative Studio Tokyo - Tokyo, Japan",
+        "description": "Assisted senior illustrators in storyboarding, asset preparation, and digital painting, rapidly developing proficiency in Adobe Creative Suite.",
+        "activities": [
+          "Created mood boards and style frames to establish visual direction for client pitches.",
+          "Assisted in digitizing hand-drawn sketches and refining vector paths in Illustrator.",
+          "Prepared presentation decks and exported multi-format assets for client delivery.",
+          "Participated in weekly critique sessions and implemented feedback efficiently."
+        ]
+      }
+    ]
   },
   {
     "id": 7,
@@ -60,7 +504,76 @@
     "username": "#ohayes.motionlab",
     "joined": "Joined Aug 2022",
     "image": "/Images/member-7.png",
-    "origin": "Sydney, Australia"
+    "origin": "Sydney, Australia",
+    "type": "contractor",
+    "gender": "male",
+    "dateOfBirth": "1989-12-05",
+    "email": "oliver.hayes@motionlab.au",
+    "phone": "+61 2 9876 5432",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Native"
+      }
+    ],
+    "about": [
+      "I'm Oliver Hayes, a Motion Designer based in Sydney who brings static interfaces to life through smooth, purposeful animation.",
+      "I focus on micro-interactions, loading states, and transitional storytelling that guide users naturally through digital products.",
+      "Motion isn't just decoration; it's a functional layer that enhances usability, feedback, and overall delight."
+    ],
+    "skills": [
+      {
+        "title": "After Effects",
+        "icon": "/Images/member-skill-4.svg"
+      },
+      {
+        "title": "Lottie",
+        "icon": "/Images/member-skill-5.svg"
+      },
+      {
+        "title": "Framer",
+        "icon": "/Images/member-skill-3.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2022-2024",
+        "role": "Motion Design Lead",
+        "company": "PixelWave Studios - Sydney, Australia",
+        "description": "Directed animation systems for mobile and web apps, reducing perceived load times by 40% through strategic motion design and Lottie implementation.",
+        "activities": [
+          "Designed and documented motion guidelines for UI components, transitions, and feedback states.",
+          "Created lightweight Lottie animations optimized for web and native app performance.",
+          "Collaborated with frontend developers to implement animations using CSS and JS frameworks.",
+          "Led motion reviews and ensured consistency across 3 concurrent product lines.",
+          "Mentored 2 junior motion designers on timing, easing, and performance optimization."
+        ]
+      },
+      {
+        "period": "2020-2022",
+        "role": "Motion Graphic Designer",
+        "company": "FrameByFrame Agency - Melbourne, Australia",
+        "description": "Produced explainer videos, UI animations, and social media content for 30+ clients, maintaining brand consistency across multiple platforms.",
+        "activities": [
+          "Storyboarded and animated 2D explainer videos using After Effects and Cinema 4D basics.",
+          "Designed social media motion assets optimized for Instagram, TikTok, and YouTube.",
+          "Managed render queues, codec exports, and file organization for multi-platform delivery.",
+          "Coordinated with copywriters and sound designers to synchronize audio-visual elements."
+        ]
+      },
+      {
+        "period": "2018-2020",
+        "role": "Animator & Video Editor",
+        "company": "MotionLab Sydney - Sydney, Australia",
+        "description": "Edited and composited commercial video content, learning frame-by-frame animation principles and sound design integration.",
+        "activities": [
+          "Edited raw footage, applied color grading, and added motion graphics for brand campaigns.",
+          "Assisted in keyframe animation and rigging for character and product demonstrations.",
+          "Synchronized voiceovers, sound effects, and background music using Premiere Pro.",
+          "Maintained project archives and backup workflows to ensure asset security."
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -69,7 +582,84 @@
     "username": "#psharma.datainsights",
     "joined": "Joined Dec 2021",
     "image": "/Images/member-8.png",
-    "origin": "Mumbai, India"
+    "origin": "Mumbai, India",
+    "type": "full-time",
+    "gender": "female",
+    "dateOfBirth": "1993-03-17",
+    "email": "priya.sharma@datainsights.in",
+    "phone": "+91 22 1234 5678",
+    "languages": [
+      {
+        "language": "English",
+        "level": "Fluent"
+      },
+      {
+        "language": "Hindi",
+        "level": "Native"
+      },
+      {
+        "language": "Marathi",
+        "level": "Native"
+      }
+    ],
+    "about": [
+      "Namaste! I'm Priya Sharma, a Data Analyst from Mumbai who turns raw numbers into clear, actionable business intelligence.",
+      "I specialize in data visualization, predictive modeling, and dashboard creation that empower teams to make evidence-based decisions.",
+      "I believe data should tell a story, not just show numbers. My goal is to bridge the gap between complex datasets and strategic action."
+    ],
+    "skills": [
+      {
+        "title": "Tableau",
+        "icon": "/Images/member-skill-2.svg"
+      },
+      {
+        "title": "Python",
+        "icon": "/Images/member-skill-6.png"
+      },
+      {
+        "title": "SQL",
+        "icon": "/Images/member-skill-1.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2021-2024",
+        "role": "Senior Data Analyst",
+        "company": "FinTrack Analytics - Mumbai, India",
+        "description": "Built automated reporting pipelines and predictive models that reduced manual analysis time by 60% and improved forecast accuracy by 22%.",
+        "activities": [
+          "Developed ETL pipelines using Python (Pandas, SQLAlchemy) to clean and transform raw datasets.",
+          "Designed interactive Tableau dashboards for executive teams with drill-down capabilities.",
+          "Built predictive models for customer churn and revenue forecasting using scikit-learn.",
+          "Documented data dictionaries, KPI definitions, and methodology for cross-team alignment.",
+          "Presented quarterly insights to leadership, influencing budget allocation and product strategy."
+        ]
+      },
+      {
+        "period": "2019-2021",
+        "role": "Data Analyst",
+        "company": "CloudMetrics Inc. - Bangalore, India",
+        "description": "Developed interactive Tableau dashboards for executive teams, translating complex SQL queries into intuitive visual insights.",
+        "activities": [
+          "Wrote optimized SQL queries to extract, join, and aggregate data from relational databases.",
+          "Created automated email reports and scheduled dashboard refreshes for stakeholder access.",
+          "Conducted A/B testing analysis to evaluate campaign performance and feature adoption.",
+          "Collaborated with data engineers to troubleshoot pipeline failures and ensure data integrity."
+        ]
+      },
+      {
+        "period": "2017-2019",
+        "role": "Business Intelligence Intern",
+        "company": "DataDriven Corp - Mumbai, India",
+        "description": "Cleaned and structured large datasets, assisted in A/B testing analysis, and created automated Excel/Power BI reports for marketing teams.",
+        "activities": [
+          "Performed data cleaning and deduplication using Excel, VLOOKUP, and Power Query.",
+          "Assisted in designing Power BI reports with calculated fields and DAX measures.",
+          "Supported marketing teams by tracking campaign ROI and customer acquisition metrics.",
+          "Maintained version control and documentation for shared BI workbooks and templates."
+        ]
+      }
+    ]
   },
   {
     "id": 9,
@@ -78,6 +668,83 @@
     "username": "#lcalderong.paraleot",
     "joined": "Joined Jul 2020",
     "image": "/Images/member-9.png",
-    "origin": "Madrid, Spain"
+    "origin": "Madrid, Spain",
+    "type": "freelancer",
+    "gender": "female",
+    "dateOfBirth": "1995-08-11",
+    "email": "leila.calderon@paraleot.es",
+    "phone": "+34 91 123 4567",
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Advanced"
+      },
+      {
+        "language": "Catalan",
+        "level": "Intermediate"
+      }
+    ],
+    "about": [
+      "Hola! I'm Leila Calderon, a Graphic Designer from Madrid with a love for typography, layout, and visual hierarchy.",
+      "I craft print and digital assets that communicate clearly and leave a lasting impression. From editorial design to social media campaigns, I focus on consistency and impact.",
+      "Design is problem-solving through aesthetics, and I'm passionate about making complex ideas visually accessible."
+    ],
+    "skills": [
+      {
+        "title": "InDesign",
+        "icon": "/Images/member-skill-4.svg"
+      },
+      {
+        "title": "Photoshop",
+        "icon": "/Images/member-skill-1.svg"
+      },
+      {
+        "title": "Figma",
+        "icon": "/Images/member-skill-3.svg"
+      }
+    ],
+    "experience": [
+      {
+        "period": "2020-2023",
+        "role": "Visual Designer",
+        "company": "Estudio Visual - Madrid, Spain",
+        "description": "Designed comprehensive brand guidelines and marketing collateral for 15+ clients across fashion, tech, and hospitality sectors.",
+        "activities": [
+          "Developed brand identity systems including logos, color palettes, typography, and usage guidelines.",
+          "Designed print and digital assets: brochures, business cards, social media templates, and web banners.",
+          "Ensured brand consistency across multi-channel campaigns and coordinated with external vendors.",
+          "Managed asset libraries and version control using Adobe Cloud and Figma teams.",
+          "Presented design concepts to clients and iterated based on structured feedback loops."
+        ]
+      },
+      {
+        "period": "2018-2020",
+        "role": "Brand & Layout Designer",
+        "company": "PrintMedia Madrid - Madrid, Spain",
+        "description": "Produced high-volume editorial layouts, packaging designs, and digital banners, maintaining strict adherence to print production standards.",
+        "activities": [
+          "Created multi-page editorial layouts in InDesign with master pages, grids, and typographic hierarchy.",
+          "Prepared print-ready files with correct bleeds, crop marks, and CMYK color separations.",
+          "Designed packaging mockups and structural layouts collaborating with production engineers.",
+          "Quality-checked proofs and coordinated with printers to ensure accurate color reproduction."
+        ]
+      },
+      {
+        "period": "2016-2018",
+        "role": "Junior Designer & Art Assistant",
+        "company": "Creative Space Studio - Barcelona, Spain",
+        "description": "Supported senior designers in mood boarding, asset sourcing, and presentation design, rapidly mastering Adobe Creative Cloud workflows.",
+        "activities": [
+          "Compiled mood boards, reference imagery, and competitor visual audits for project kickoffs.",
+          "Assisted in photo retouching, background removal, and asset preparation in Photoshop.",
+          "Built client presentation decks and exported multi-format deliverables for review.",
+          "Organized digital asset libraries and maintained naming conventions for team accessibility."
+        ]
+      }
+    ]
   }
 ]
